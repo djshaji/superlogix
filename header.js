@@ -15,7 +15,7 @@ function header_create () {
     ]));
 
     
-    ui_script ("./assets/js/core/jquery.min.js")
+    // ui_script ("./assets/js/core/jquery.min.js")
     ui_script ("./assets/js/core/popper.min.js")
     ui_script ("./assets/js/core/bootstrap.min.js")
     ui_script ("./assets/js/plugins/bootstrap-switch.js")
@@ -97,6 +97,27 @@ function header_create () {
     ])
     contact_a.href = "/contact.html"
     contact.appendChild (contact_a)
+
+    for (i of ["fa-twitter", "fa-facebook-square", "fa-instagram"]) {
+        tw = uic ("li", "", [
+            "nav-item"
+        ])
+        ul.appendChild (tw)
+    
+        tw_a = uic ("a", "", [
+            "nav-link"
+        ])
+    
+        tw_ai = uic ("i", "", [
+            "fab",
+            i
+        ])
+        tw_a.appendChild (tw_ai)
+        tw.appendChild (tw_a)        
+    }
+
+    ul.appendChild (contact)
+
 }
 
 header_create ()
