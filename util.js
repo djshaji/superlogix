@@ -43,4 +43,3 @@ function populate_menu () {
     }
 }
 
-populate_menu ()
