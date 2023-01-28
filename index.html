@@ -18,7 +18,6 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
@@ -47,6 +46,11 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
+<style>
+  .htext {
+    color: "#1a3091";
+  }
+</style>
 <style>
   .centered {
     position: fixed;
@@ -77,7 +81,7 @@
   <button id="skip" onclick="showMain ();" class="btn btn-outline-success h4 shadow" style="position: fixed;right: 5%;bottom:5%;opacity: 100;">Skip Intro</button>
   <button id="ready" class="btn btn-outline-success h1 shadow centered" style="position: fixed;left: 50%;top:50%;opacity: 100;">Are you ready?</button>
   <!-- Navbar -->
-  <nav class="d-none navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
+  <nav class="d-none navbar navbar-expand-lg bg-info fixed-top">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="/index.html" data-placement="bottom" target="_blank">
@@ -122,8 +126,8 @@
   </nav>
   <!-- End Navbar -->
   <div class="wrapper" style="opacity: 100;" id="wrapper">
-    <div class="page-header clear-filter" filter-color="blue">
-      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/header1.jpg');">
+    <div class="page-header bg-white clear-filter" filter-color="blue">
+      <div class="page-header-image" data-parallax="true" >
       </div>
       <div class="container">
         <div class="content-center brand">
@@ -145,7 +149,7 @@
                 <div class="plane twelve">12</div> -->
               </div>
             </div>
-          <h2 style="position: relative;bottom: 300px;font-family: Montserrat;">World Class Customer Support</h2>
+          <h2 class="htext"" style="position: relative;bottom: 300px;font-family: Montserrat;color: #1a3091;font-weight: bold;"><span style="color: #e80609;">Consulting</span> At Its Best</h2>
           </div>
     
         </div>
@@ -417,7 +421,7 @@
       <div class="section section-about-us" >
         <div class="container text-dark ml-auto mr-auto text-center">
           <h1><i style="font-size: 300%;" class="text-primary fa-solid fa-lightbulb-on"></i></h1>
-          <h3 class="title h2"></i>&nbsp;&nbsp;A Smart partner for your business tech support needs</h3>
+          <h3 class="title h2"></i>&nbsp;&nbsp;A Smart partner for your business needs</h3>
           <h4 class="description p">
             Boost customer retention, improve response time and increase efficiency and reliability of your software solutions.
           </h4>
