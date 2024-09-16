@@ -3,14 +3,11 @@ menus = {
         "About us": "about.html",
         "Careers": "careers.html",
         "Press": "press.html"
-    }, "Platforms" : {
-        "Gaming": "gaming.html",
-        "Crypto": "crypto.html",
-        "Dating": "dating.html",
-        "Streaming": "streaming.html",
-        "Home Survelliance": "home.html",
-        "Electronics": "electroncs.html",
-        "Marketplace": "marketplace.html"
+    }, "Skills" : {
+        "Virtual Assistant": "virtual.html",
+        "Customer Support": "support.html",
+        "Contact Center": "center.html"
+
     }, "Solutions": {
         "Customer Experience": "customer.html",
         "Growth Strategy": "growth.html",
