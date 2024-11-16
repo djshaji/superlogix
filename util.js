@@ -12,7 +12,7 @@ menus = {
         "Customer Experience": "customer.html",
         "Growth Strategy": "growth.html",
         "Business Intelligence": "business.html",
-    }
+    }, 
 }
 
 function populate_menu () {
@@ -25,7 +25,7 @@ function populate_menu () {
         
         li.innerHTML =
             `<a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">\
-                <p>${m}</p>\
+                <b>${m}</b>\
             </a>`
 
         div = document.createElement ("div")

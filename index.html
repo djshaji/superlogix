@@ -46,9 +46,26 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   .htext {
     color: "#1a3091";
+  }
+  h2 {
+      font-family: "Orbitron";
+      
+  }
+  
+  h4, p {
+            text-align: left;
+
+  }
+
+  p, ol, li, html, body, h4 {
+      font-family: "Montserrat";
+      font-size: 16px;
   }
 </style>
 <style>
@@ -81,11 +98,11 @@
   <button id="skip" onclick="showMain ();" class="d-none btn btn-outline-success h4 shadow" style="position: fixed;right: 5%;bottom:5%;opacity: 100;">Skip Intro</button>
   <button id="ready" class="btn btn-outline-success h1 shadow centered" style="position: fixed;left: 50%;top:50%;opacity: 100;">Are you ready?</button>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-info fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background:#b96fd9">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="/index.html" data-placement="bottom" target="_blank">
-          Supalogix
+          <img width=40 src="assets/img/logox.png">
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar top-bar"></span>
@@ -97,9 +114,9 @@
         <ul class="navbar-nav">
           
           <li class="nav-item">
-            <a class="nav-link btn btn-neutral" href="contact.html" target="_blank">
+            <a class="nav-link btn btn-neutral" style="text-color: #b96fd9" href="contact.html" target="_blank">
               <i class="now-ui-icons arrows-1_share-66"></i>
-              <p>Contact us</p>
+              <b>Contact us</b>
             </a>
           </li>
           <li class="nav-item">
@@ -135,7 +152,7 @@
           <!-- <h1 class="h1-seo">Superlogix</h1> -->
           <div id="container">
             <div id="stage">
-              <div id="shape" class="ring backfaces">
+              <div id="shape" class="ring backfaces d-none">
                 <div class="plane one">S</div>
                 <div class="plane two">u</div>
                 <div class="plane three">p</div>
@@ -161,7 +178,7 @@
           <div class="row">
             <div class="col-12">
               <div class="shadow hero-images-container-1">
-                <img src="assets/img/client4.jpg" alt="">
+                <img src="https://blog.voizworks.com/wp-content/uploads/2021/10/blogq3.png" alt="">
               </div>
               <div class="hero-images-container shadow">
                 <img src="assets/img/client2.jpg" alt="">
@@ -422,7 +439,7 @@
         <div class="container text-dark ml-auto mr-auto text-center">
           <h1><i style="font-size: 300%;" class="text-primary fa-solid fa-lightbulb-on"></i></h1>
           <h3 class="title h2"></i>&nbsp;&nbsp;A Smart partner for your business needs</h3>
-          <h4 class="description p">
+          <h4 class="">
 Scale effortlessly with our customer service teams that fit your workflow, needs, and save on costs.We provide outsourcing solutions across business verticals to grow your customer base, build relationships and deliver top notch customer service. 
             Boost customer retention, improve response time and increase efficiency and reliability of your software solutions.
 
@@ -431,38 +448,55 @@ Scale effortlessly with our customer service teams that fit your workflow, needs
       </div>
       
       <div class="section text-dark">
-        <div class="container"><div class="row"><div class="ml-auto mr-auto text-center col-md-8"><h2 class="title">Business Growth Driven By Smart Solutions</h2><h4 class="description">With years of experience and expertise in state of the art technology, we help you grow your company through innovative software solutions.</h4></div></div><div class="row"><div class="col-md-4"><div data-background-color="" class="card-background card-raised card" style="background-image: url(&quot;/now-ui-kit-pro-react/static/media/bg24.2e6b2850.jpg&quot;);"><div class="info"><div class="icon icon-white"><i class="now-ui-icons shopping_delivery-fast"></i></div><div class="description"><h4 class="info-title">Tools</h4><p>We make sure your tools are set up to deliver maximum efficiency and stellar customer experience.
+        <div class="container"><div class="row"><div class="ml-auto mr-auto text-center col-md-8"><h2 class="">Business Growth Driven By Smart Solutions</h2><h4 class="">With years of experience and expertise in state of the art technology, we help you grow your company through innovative software solutions.</h4></div></div><div class="row"><div class="col-md-4"><div data-background-color="" class="card-background card-raised card" style="background-image: url(&quot;/now-ui-kit-pro-react/static/media/bg24.2e6b2850.jpg&quot;);"><div class="info"><div class="icon icon-white"><i class="now-ui-icons shopping_delivery-fast"></i></div><div class="description"><h4 class="info-title">Tools</h4><p>We make sure your tools are set up to deliver maximum efficiency and stellar customer experience.
 </p><a class="ml-3" href="#pablo">Find more...</a></div></div></div></div><div class="col-md-4"><div data-background-color="" class="card-background card-raised card" style="background-image: url(&quot;/now-ui-kit-pro-react/static/media/bg28.82da8a77.jpg&quot;);"><div class="info"><div class="icon icon-white"><i class="now-ui-icons business_badge"></i></div><div class="description"><h4 class="info-title">People</h4><p>We hire and train teams that are passionate about your product and create workspaces to get your customers the experience they deserve, seamlessly and reliably.</p><a href="#pablo">Find more...</a></div></div></div></div><div class="col-md-4"><div data-background-color="" class="card-background card-raised card" style="background-image: url(&quot;/now-ui-kit-pro-react/static/media/bg25.a87421bc.jpg&quot;);"><div class="info"><div class="icon"><i class="now-ui-icons ui-2_favourite-28"></i></div><div class="description"><h4 class="info-title">Metrics</h4><p>We understand from you the metrics your business needs and align a strong support team adept in tools and workflows to meet these metrics and exceed customer expectations.</p><a class="ml-3" href="#pablo">Find more...</a></div></div></div></div></div></div>
       </div>
       
       <div class="container text-dark"><div class="row"><div class="ml-auto mr-auto text-center col-md-8">
           
 <h4></h4>
+<div class="row">
+    <img class="col-12" src="https://www.microsourcing.com/hs-fs/hubfs/M_BlogT_Benefits%20of%20global%20outsourcing.jpg?width=669&name=M_BlogT_Benefits%20of%20global%20outsourcing.jpg">
+    <div class="col-12 mt-3">
 <h2>Experience the power of Outsourcing </h2>
+<ul class="text-left">
+<li>
+No lock in contracts.</li>
 
-<h4>
-No lock in contracts.</h4>
+<li>$ No set up fees (recruiting is free).</li>
 
-<h4>$ No set up fees (recruiting is free).</h4>
+<li>Free to change your staff if you need to.</li>
 
-<h4>Free to change your staff if you need to.</h4>
+<li>Only pay an hourly rate which includes computer, internet and all fees.</li>
 
-<h4>Only pay an hourly rate which includes computer, internet and all fees.</h4>
+<li>24/7 operation (we can handle global businesses).</li>
 
-<h4>24/7 operation (we can handle global businesses).</h4>
-
-<h4>Agents can work from a minimum of 20 hours per week.</h4>
-
-<h2>Outsource Anything</h2>
-<h4>
-The advantage of outsourcing is saving costs. Workforces in India can do the work required at a fraction of the cost mainly due to the wage disparity with developed countries. The services offered are of excellent quality and lower costs do not translate to lower quality.</h4>
-<h2>Virtual Assistants</h2>
-<h4>
-Save on labour costs by hiring your virtual assistants offshore while having full control over your operations. Our skilled virtual assistants take away mundane tasks so you can focus more on growing your business. We help you save time, money, and hassle while providing you opportunities for growth and value for money. See the services we offer below.
-</h4>
+<li>Agents can work from a minimum of 20 hours per week.</li>
+</ul>
+</div>
+<div class="row p-4">
+    <img class="col-5" src="https://elmlearning.com/wp-content/uploads/2022/05/AdobeStock_302160703-scaled.jpeg">
+    <div class="col-7">
+    <h2>Outsource Anything</h2>
+    <h4>
+    The advantage of outsourcing is saving costs. Workforces in India can do the work required at a fraction of the cost mainly due to the wage disparity with developed countries. The services offered are of excellent quality and lower costs do not translate to lower quality.</h4>
+</div>  
+</div>
+<div class="row p-4">
+    <img class="col-5" src="https://www.yberryinfotainment.in/wp-content/uploads/2016/10/Effects-of-Virtual-Assistance-yberryinfosystem.com_.png">
+    <div class="col-7">
+    <h2>Virtual Assistants</h2>
+    <h4>
+    Save on labour costs by hiring your virtual assistants offshore while having full control over your operations. Our skilled virtual assistants take away mundane tasks so you can focus more on growing your business. We help you save time, money, and hassle while providing you opportunities for growth and value for money. See the services we offer below.
+    </h4>
+    </div>
+</div>
 <ol>
 </ol>
 </h4>
+<div class="row p-4">
+    <img class="col-5" src="https://www.revechat.com/wp-content/uploads/2022/02/Great-Customer-Support-jpg.webp">
+    <div class="col-7">
 <h2>
 Customer support</h2>
 <h4>
@@ -472,31 +506,70 @@ Customer support</h2>
     <li>Service Quality - excellent customer service and its commitment to customer satisfaction. With customer support outsourcing to India, you can rest assured that your customers will receive the highest quality service and support.
     </li>
 </ol>
+</div></div>
+
+<div class="row p-4">
+    <img class="col-5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH_Dxfjf45HK3Wpi-fFdCMM2r-cRoUykiqCw&s">
+    <div class="col-7">
 <h2>Efficiency  </h2>
+<p>
 Outsourcing customer service operations to India can result in increased efficiency and cost savings for businesses. With lower labor costs and a highly skilled workforce, our customer service agents can provide businesses with faster response times and improved customer experience.
+</p>
+</div></div>
+<div class="row p-4">
+    <img class="col-5" src="https://static-blog.omniconvert.com/blog/wp-content/uploads/2024/07/09094340/1610950510043-800x400.png">
+    <div class="col-7">
 <h2>Customer Satisfaction  </h2>
-customer service agents are well-versed in customer service principles, making them capable of delivering timely and accurate customer support solutions. With this, businesses can ensure a higher customer satisfaction rate and retain their customer base.</li>
+<p>Customer service agents are well-versed in customer service principles, making them capable of delivering timely and accurate customer support solutions. With this, businesses can ensure a higher customer satisfaction rate and retain their customer base.</p>
+</div></div>
+<div class="row p-4">
+    <img class="col-5" src="https://optimise2.assets-servd.host/customer-gauge/production/blog/Newsletter45-flexible.webp?w=1200&h=630&q=82&fm=jpg&fit=crop&dm=1702036505&s=b5aec77db89774fe9f7d8e663b4fd9a8">
+    <div class="col-7">
+
 <h2>Flexibility </h2>
-Outsourcing customer support services to India can give businesses access to flexible resources. </li>
-<li>Businesses can efficiently manage flexibility in resources by being able to scale up and down operations as required.</li>
+<p>Outsourcing customer support services to India can give businesses access to flexible resources. 
+Businesses can efficiently manage flexibility in resources by being able to scale up and down operations as required.
+</p>
+</div></div>
+<div class="row p-4">
+    <img class="col-5" src="https://www.cloudtalk.io/wp-content/uploads/2021/12/banner_newsletter_27.12.21_share.png">
+    <div class="col-7">
 
 <h2>
 CONTACTCENTRE </h2><h4>Outsource your contact centre to the India and experience a seamless, cost-effective, and high-quality solution! Our team of experienced professionals in the India will provide top-notch customer service and support, leaving you free to focus on growing your business. With a strong emphasis on communication, reliability, and customer satisfaction, outsourcing your contact center is the smart choice for any business looking to improve their customer service experience. Get started today and see the difference for yourself!
 </h4>
+</div></div>
+<div class="row p-4">
+    <img class="col-5" src="https://media.sproutsocial.com/uploads/2023/03/What-is-social-media-management-everything-you-need-to-know-Final-1.svg">
+    <div class="col-7">
+
 <h2>
 SOCIAL MEDIA MANAGEMENT</h2>
 <h4>Outsourcing Social Media Services to the India through BruntWork allows your business to stay ahead of the game. Our team of experienced social media specialists can help you reach your target audience, increase engagement, and drive growth through effective social media marketing strategies. Click the ‘Contact us Today’ button to learn more about our SMM services and how we can help your business succeed.
 </h4>
+</div></div>
+<div class="row m-3 p-3">
+<img class="col-5" src="https://blog.voizworks.com/wp-content/uploads/2021/10/blogq3.png">
+<div class="col-7 ">
 <h2>
 TELESALES</h2>
-<h4>Reach more customers and increase sales when you outsource your telesales operations to the India. Filipinos are excellent communicators and have a proven track record of success in telesales.
+<h4 class="text-left">Reach more customers and increase sales when you outsource your telesales operations to the India. Filipinos are excellent communicators and have a proven track record of success in telesales.
 </h4>
-
+</div>
+<!--
 <h2>
 DEBT COLLECTION</h2>
 <h4>Our offshore debt collectors can help you collect unpaid debts owed by other businesses or certain individuals. The process of collecting and getting in touch with the involved parties is through either electronic email, calls, text messages, and snail-mail.</h4>
+-->
+<div class="row m-3">
+<img class="col-5" src="https://sheetcast.com/media/dcwhmwb3/281-image1.jpg">
+<div class="col-7">
 <h2>DATA ENTRY</h2>
-<h4>efficient and accurate data management with the best data entry services in the India. Our outsourcing solutions have revolutionized the way businesses handle their data, providing top-notch data entry services and an efficient outsourcing experience. Whether you need to outsource data entry for your business or require customized data entry solutions, we’ve got you covered. Trust us to deliver quality work for all your data entry needs in the India.
+<h4 class="text-left">Efficient and accurate data management with the best data entry services in the India. Our outsourcing solutions have revolutionized the way businesses handle their data, providing top-notch data entry services and an efficient outsourcing experience. Whether you need to outsource data entry for your business or require customized data entry solutions, we’ve got you covered. Trust us to deliver quality work for all your data entry needs in the India.
+</h4>
+</div>
+</h4>
+</div>
 </h4>
 
 
@@ -507,7 +580,7 @@ DEBT COLLECTION</h2>
       
       </div></div>
       
-      <div class="section" id="carousel">
+      <div class="section d-none" id="carousel">
         <div class="container">
           <div class="title">
             <h4>Portfolio</h4>
@@ -520,14 +593,14 @@ DEBT COLLECTION</h2>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
+                <div class="d-none carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <img class="d-block" src="assets/img/tech1.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Web Development</h5>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="d-none carousel-item">
                     <img class="d-block" src="assets/img/tech4.jpg" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Software Development</h5>
@@ -553,7 +626,7 @@ DEBT COLLECTION</h2>
       </div>
 
       <div class="section section-about-us">
-        <div class="container text-dark">
+        <div class="container text-dark d-none">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
               <h2 class="title">Software Platform Development</h2>
