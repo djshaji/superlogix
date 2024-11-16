@@ -68,7 +68,7 @@ function header_create () {
     ui_script ("util.js")
     document.body.classList.add ("index-page")
     document.body.classList.add ("sidebar-collapse")
-    navbar = uic ("nav", "", ["navbar", "navbar-expand-lg", "bg-primary", "fixed-top", "navbar-transparent"])
+    navbar = uic ("nav", "", ["navbar", "navbar-expand-lg", "bg-info", "fixed-top", "navbar-transparent"])
     navbar.setAttribute ("color-on-scroll", "400")
     document.body.appendChild (navbar)
     nContainer = uic ("container")
@@ -77,9 +77,12 @@ function header_create () {
     nTranslate = uic ("div")
     nContainer.appendChild (nTranslate)
 
-    nContainer_a = uic ("a", "Supalogix", [
+    nContainer_a = uic ("a", "", [
         "navbar-brand"
     ]) ;    
+    xx = document.createElement ("span")
+    xx.innerHTML = '          <img width=40 src="assets/img/logox.png">'
+    nContainer_a.appendChild (xx)
     nTranslate.appendChild (nContainer_a);
 
     nTranslate_b = uic ("button", "", [
